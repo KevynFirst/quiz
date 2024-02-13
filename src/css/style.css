@@ -138,17 +138,69 @@ input:checked:before {
   border-radius: 50%;
 }
 
+.finalizar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.finalizar button {
+  width: 20%;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  color: #0F172A;
+  font-weight: 600;
+  background-color: var(--verde);
+  cursor: pointer;
+}
+
+dialog{
+  margin: auto;
+  padding: auto;
+  width: 40%;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 0 16px rgb(0 0 0 / .5);
+}
+
+dialog h2{  
+  padding: 16px 16px;
+  color: var(--cinzaAzulado);
+  background-color: #1e293B;
+  text-align: center;
+}
+
+dialog p{
+  text-align: center;
+  padding: 24px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0;
+  background-color: var(--azulEscuro);
+  color: var(--cinzaAzulado);
+}
 
 #acertos {
   text-align: center;
   background-color: var(--azulEscuro);
   color: var(--cinzaAzulado);
-  position: fixed;
-  bottom: 0;
-  left: 0;
-
+  font-size: 24px;
   width: 100%;
+}
+
+dialog .close{
+  width: 100%;
+  border: none;
   padding: 12px;
+  background-color: var(--verde);
+  color: var(#1e293B);
+  cursor: pointer;
+}
+
+dialog::backdrop{
+  background-color: rgb(0 0 0 / .3);
 }
 
 @media screen and (max-width: 680px){
