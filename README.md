@@ -24,7 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 ## 💻 Projeto
-Nesse projeto foi desenvolvido um quiz dinâmico, no 14° evento nlw expert da rocketseat, as questões do projeto foi gerado pelo ChatGPT. O objetivo do projeto é para revisar e testar os conhecimentos técnicos, acrescentei outra funcionalidade, uma modal onde vai mostrar o retorno da quantidade de questões acertadas.
+Nesse projeto foi desenvolvido um quiz dinâmico, no 14° evento nlw expert da rocketseat, as questões do projeto foi gerado pelo ChatGPT. O objetivo do projeto é para revisar e testar os conhecimentos técnicos, aproveitei e criei um arquivo .md para explicar o script js do evento. Acrescentei uma modal onde vai mostrar o retorno da quantidade de questões acertadas.
 
 <p align="center">
   <img alt="Preview do projeto desenvolvido." src=".github/preview.jpg" width="80%">
