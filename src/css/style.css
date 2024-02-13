@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*, :root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-synthesis: none;                 /* desativa a síntese de fontes no navegador, garantindo que o texto seja exibido exatamente conforme a fonte original. */
+  text-rendering: optimizeLegibility;   /* utilizado para garantir a melhor legibilidade possível do texto. */
+  -moz-osx-font-smoothing: grayscale;   /* utilizada no navegador Firefox em sistemas operacionais macOS para suavizar as bordas do texto. */
+  -webkit-font-smoothing: antialiased;  /* usada para suavizar as bordas do texto em navegadores que usam o mecanismo de renderização WebKit. */
+  -webkit-text-size-adjust: 100%;       /* Garante que o tamanho do texto seja mantido, sem ajustes automáticos com base no zoom do navegador ou do dispositivo*/
+
+  --verde: #A3E635;
+  --azulEscuro: #475569;
+  --cinzaAzulado: #E2E8F0;
+}
+
+body {
+  background-color: #0F172A;
+}
+
+main {
+  padding: 20px;
+  max-width: 640px;
+  margin: 0 auto 64px;
+}
+
+header {
+  margin-top: 64px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #334155;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 30px;
+  color: #f1f5f9;
+}
+
+header img {
+  width: 5%;
+  margin-left: 16px;
+}
+
+#quiz {
+
+  counter-reset: quiz-item;             /* Contadores CSS são usados para numerar elementos em uma página, como itens de uma lista, 
+                                           seções de um documento ou qualquer outra estrutura onde você precise numerar itens sequencialmente*/
+}
+
+
+.quiz-item {
+  margin-top: 24px;
+  border: 1px solid var(--azulEscuro);
+  border-radius: 6px;
+
+  overflow: hidden;                     /*Usado para os elementos filhos não transbordarem o elemento pai*/
+}
+
+.quiz-item h3 {
+  padding: 16px 20px;
+  color: var(--cinzaAzulado);
+  background-color: #1e293B;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+}
+
+
+.quiz-item h3:before {
+  counter-increment: quiz-item;         /*usado para incrementar o valor de um contador CSS do elemento informado*/
+  content: counter(quiz-item);          /*Inseri conteúdo adicional em um elemento HTML, usado em conjunto com pseudo-elementos*/
+
+  background-color: var(--azulEscuro);
+  width: 28px;
+  height: 28px;
+  font-size: 12px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;                       /*controla a capacidade dos itens flexíveis de encolher quando o espaço disponível é limitado, em  valor zero nega o encolhimento*/
+}
+
+.quiz-item dl {
+  padding: 20px 24px;
+
+  display: grid;
+  gap: 8px;
+}
+
+.quiz-item dl dt {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  color: var(--cinzaAzulado);
+}
+
+input {
+  all: unset;                           /*desfaz quaisquer estilos que possam ter sido aplicados diretamente ou por herança*/
+  border: 1px solid #94a3b8;
+  border: 1px solid #94a3b8;
+  width: 16px;
+  height: 16px;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+}
+
+input:checked {
+  border: 1px solid var(--verde);
+}
+
+
+input:checked:before {
+  content: "";                        
+  width: 10px;
+  height: 10px;
+
+  background-color: var(--verde);
+  border-radius: 50%;
+}
+
+
+#acertos {
+  text-align: center;
+  background-color: var(--azulEscuro);
+  color: var(--cinzaAzulado);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  padding: 12px;
+}
+
+@media screen and (max-width: 680px){
+  header {
+    flex-wrap: wrap-reverse;
+    gap: 16px;
+  }
+  
+  header img{
+    width: 15%;
+  }
+
+  header h1{
+    font-size: 24px;
+    text-align: center;
+  }
+}

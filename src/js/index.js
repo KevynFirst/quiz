@@ -97,9 +97,11 @@ const perguntasReact = [
   //new Set() - permite armazenar coleções de valores únicos, onde cada valor pode aparecer apenas uma vez.
   const corretas = new Set()
   const totalDePerguntas = perguntasReact.length
+  const acertos = document.querySelector('#acertos')
   const mostrarTotal = document.querySelector('#acertos span')
   //textContent - usada para obter ou definir o texto contido em um nó do DOM
   mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas
+
   
   
   // loop ou laço de repetição
@@ -125,16 +127,21 @@ const perguntasReact = [
         if(estaCorreta){
           corretas.add(item)
         }
+        // if(corretas.size > 7){
+        //   acertos.style.backgroundColor = '#A3E635';
+        // }
         mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas
       }
 
   
       quizItem.querySelector('dl').appendChild(dt)
-    }
-    
+    } 
     quizItem.querySelector('dl dt').remove()
-    
+  
     // coloca a pergunta na tela
     quiz.appendChild(quizItem)
   }
+
+  
+
   
