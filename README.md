@@ -23,19 +23,17 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [ChatGPT](https://chat.openai.com)
 
 
-## 💻 Projeto
+## 📖 Projeto
 Nesse projeto foi desenvolvido um quiz dinâmico, no 14° evento nlw expert da rocketseat, as questões do projeto foi gerado pelo ChatGPT. O objetivo do projeto é para revisar e testar os conhecimentos técnicos, aproveitei e criei um arquivo .md para explicar o script js do evento. Acrescentei por fora da proposta do evento, uma modal onde vai mostrar o retorno da quantidade de questões acertadas.
-
-<p align="center">
-  <img alt="Preview do projeto desenvolvido." src="./src/images/preview.jpg" width="80%">
-</p>
-
-### Veja o projeto funcionando <a href="https://kevynfirst.github.io/quiz">aqui</a>. 👈
+<br>
 <br>
 
 
-## 📝 Licença
-Esse projeto está sob a licença MIT.
+## 🖥 Preview
+<p align="center">
+  <img alt="Preview do projeto desenvolvido." src="./src/images/preview.jpg" width="80%">
+</p>
+### Veja o projeto funcionando <a href="https://kevynfirst.github.io/quiz">aqui</a>. 👈
 <br><br>
 
 ## 😉 Obrigado por visitar meu projeto
