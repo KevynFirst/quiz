@@ -24,7 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 ## 📖 Projeto
-Nesse projeto foi desenvolvido um quiz dinâmico, no 14° evento nlw expert da rocketseat, as questões do projeto foi gerado pelo ChatGPT. O objetivo do projeto é para revisar e testar os conhecimentos técnicos, aproveitei e criei um <a href="src/js/expjs.md" target="blank">arquivo .md</a> para explicar o script js do evento. Acrescentei por fora da proposta do evento, uma modal onde vai mostrar o retorno da quantidade de questões acertadas.
+Nesse projeto foi desenvolvido um quiz dinâmico, no 14° evento nlw expert da rocketseat, as questões do projeto foi gerado pelo ChatGPT. O objetivo do projeto é para revisar e testar os conhecimentos técnicos, aproveitei e criei um <a href="src/js/expjs.md" target="_blank">arquivo .md</a> para explicar o script js do evento. Acrescentei por fora da proposta do evento, uma modal onde vai mostrar o retorno da quantidade de questões acertadas.
 <br>
 <br>
 
@@ -33,12 +33,12 @@ Nesse projeto foi desenvolvido um quiz dinâmico, no 14° evento nlw expert da r
 <p align="center">
   <img alt="Preview do projeto desenvolvido." src="./src/images/preview.jpg" width="80%">
 </p>
-<p align="center"> Veja o projeto funcionando <a href="https://kevynfirst.github.io/quiz" target="blank">aqui</a> 👈.</p>
+<p align="center"> Veja o projeto funcionando <a href="https://kevynfirst.github.io/quiz" target="_blank">aqui</a> 👈.</p>
 <br>
 
 ## 😉 Obrigado por visitar meu projeto
 <p>Você pode conferir outros projetos que desenvolvi aqui no meu GitHub, ou entrar em contato comigo pelos demais links.</p>
 
-<a href = "mailto:kevynfirst@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="blank"></a>
-<a href="https://instagram.com/kevynfirst" target="blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="blank"></a>
-<a href="https://www.linkedin.com/in/kevynfirst" target="blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="blank"></a>
+<a href = "mailto:kevynfirst@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+<a href="https://instagram.com/kevynfirst" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/kevynfirst" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="blank"></a>
