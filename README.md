@@ -21,7 +21,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Javascript](https://www.javascript.com)
 - [ChatGPT](https://chat.openai.com)
-
+<br>
+<br>
 
 ## 📖 Projeto
 Nesse projeto foi desenvolvido um quiz dinâmico, no 14° evento nlw expert da rocketseat, as questões do projeto foi gerado pelo ChatGPT. O objetivo do projeto é para revisar e testar os conhecimentos técnicos, aproveitei e criei um <a href="src/js/expjs.md" target="_blank">arquivo .md</a> para explicar o script js do evento. Acrescentei por fora da proposta do evento, uma modal onde vai mostrar o retorno da quantidade de questões acertadas.
