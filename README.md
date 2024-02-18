@@ -33,8 +33,8 @@ Nesse projeto foi desenvolvido um quiz dinâmico, no 14° evento nlw expert da r
 <p align="center">
   <img alt="Preview do projeto desenvolvido." src="./src/images/preview.jpg" width="80%">
 </p>
-Veja o projeto funcionando <a href="https://kevynfirst.github.io/quiz">aqui</a>. 👈
-<br><br>
+<p align="center"> Veja o projeto funcionando <a href="https://kevynfirst.github.io/quiz">aqui</a></p>. 👈
+<br>
 
 ## 😉 Obrigado por visitar meu projeto
 <p>Você pode conferir outros projetos que desenvolvi aqui no meu GitHub, ou entrar em contato comigo pelos demais links.</p>
