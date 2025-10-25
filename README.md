@@ -11,6 +11,7 @@ Aplicação desenvolvida no evento NLW Expert da Rocketseat na trilha HTML+CSS+J
 </p>
 
 <p align="center">
+  <img alt="Static Badge" src="https://img.shields.io/badge/Dev-Project-purple">
   <img alt="Static Badge" src="https://img.shields.io/badge/license-MIT-green">
 </p>
 <br>
